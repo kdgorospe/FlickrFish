@@ -1,0 +1,2 @@
+key='insert_key_here'
+secret='insert_secret_here'
