@@ -39,9 +39,9 @@ dev.off()
 
 # Get lat/long flickr data
 setwd(outdir)
-lats<-read.csv("fish_lats.csv")
+lats<-read.csv("fishing_lats.csv")
 names(lats)<-c("id", "lat")
-longs<-read.csv("fish_longs.csv")
+longs<-read.csv("fishing_longs.csv")
 names(longs)<-c("id", "long")
 fishsites<-merge(lats, longs, by="id")
 
